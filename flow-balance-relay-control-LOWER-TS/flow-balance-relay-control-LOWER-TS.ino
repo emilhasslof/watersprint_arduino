@@ -1,13 +1,13 @@
 #include "PinChangeInterrupt.h"
 
 // pin definitions
-int FLOW_PINS[] = {2, 3, 4, 5};
+int FLOW_PINS[] = {2, 5, 3, 4};
 int POWER_TOGGLES = A0;
 int TOGGLES_TEST_SIGNAL = 9;
 int TOGGLE_PINS[] = {A4, A1, A5, A3};
 int POWER_RELAY_PIN = 12;
 int CLOSE_RELAY_PIN = 13;
-int INDICATOR_PINS[] = {6, 8, 10, 7};
+int INDICATOR_PINS[] = {6, 7, 8, 10};
 bool blink = true;
 
 boolean channels_active[] = {true, true, true, true};
